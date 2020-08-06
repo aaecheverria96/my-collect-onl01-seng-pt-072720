@@ -4,5 +4,5 @@ def my_collect (collection)
       yield(name.split(" ").first)
     return name
     end
-  end 
+  end
 end
