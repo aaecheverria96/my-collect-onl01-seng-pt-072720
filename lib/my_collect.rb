@@ -3,5 +3,6 @@ def my_collect (collection)
     collection.each do |name|
       yield(name.split(" ").first)
     return name
-  end
+    end
+  end 
 end
